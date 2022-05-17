@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EffectivejavaApplication {
+public class EffectiveJavaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EffectivejavaApplication.class, args);
+		SpringApplication.run(EffectiveJavaApplication.class, args);
 	}
 
 }
