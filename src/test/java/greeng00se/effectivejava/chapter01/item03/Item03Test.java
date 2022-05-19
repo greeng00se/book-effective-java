@@ -5,11 +5,9 @@ import org.junit.jupiter.api.Test;
 class Item03Test {
 
     @Test
-    void singleton() {
+    void enumSingleton() {
         EnumSingleton instance = EnumSingleton.INSTANCE;
-        System.out.println(instance.getName());
-        instance.setName("국수");
-        System.out.println(instance.getName());
+        instance.doSomething();
     }
 
     @Test
