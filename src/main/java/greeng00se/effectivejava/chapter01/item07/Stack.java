@@ -1,4 +1,4 @@
-package greeng00se.effectivejava.chapter01.itme07;
+package greeng00se.effectivejava.chapter01.item07;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;
