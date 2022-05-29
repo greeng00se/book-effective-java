@@ -10,6 +10,7 @@ public class Animal {
     private final int height;
     private final String species;
     private final String[] foods;
+
 }
 
 //    @Override

@@ -1,10 +1,12 @@
 package greeng00se.effectivejava.chapter02;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class Item12Test {
 
     @Test
+    @DisplayName("실패했을 때 오류 메시지를 확인하기 위함")
     void equalTest() {
         Tree tree1 = new Tree(1, 2);
         Tree tree2 = new Tree(1, 3);
