@@ -3,6 +3,7 @@ package greeng00se.effectivejava.chapter03.item18;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -16,5 +17,13 @@ public class Item18Test {
         s.addAll(List.of("Orange", "Apple", "Banana"));
 
         assertThat(s.getAddCount()).isEqualTo(6);
+    }
+
+    @Test
+    void countTest2() {
+        InstrumentedSet<String> s = new InstrumentedSet<>(new HashSet<>());
+        s.addAll(List.of("Orange", "Apple", "Banana"));
+
+        assertThat(s.getAddCount()).isEqualTo(3);
     }
 }
