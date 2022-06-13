@@ -1,7 +1,5 @@
 package greeng00se.effectivejava.chapter04.item33;
 
-import jdk.jfr.AnnotationElement;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -29,7 +27,6 @@ public class Favorites {
         Class<?> favoriteClass = f.getFavorite(Class.class);
 
         System.out.printf("%s %x %s\n", favoriteString, favoriteInteger, favoriteClass.getName());
-        AnnotationElement
     }
 }
 
