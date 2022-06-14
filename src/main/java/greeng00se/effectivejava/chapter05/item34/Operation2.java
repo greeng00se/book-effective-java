@@ -1,4 +1,4 @@
-package greeng00se.effectivejava.chapter05;
+package greeng00se.effectivejava.chapter05.item34;
 
 public enum Operation2 {
     PLUS("+") { public double apply(double x, double y) { return x + y; }},

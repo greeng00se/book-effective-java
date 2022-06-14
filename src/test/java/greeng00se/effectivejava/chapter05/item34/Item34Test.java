@@ -1,4 +1,4 @@
-package greeng00se.effectivejava.chapter05;
+package greeng00se.effectivejava.chapter05.item34;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

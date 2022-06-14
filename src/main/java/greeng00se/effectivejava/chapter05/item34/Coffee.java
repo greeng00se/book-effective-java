@@ -1,4 +1,4 @@
-package greeng00se.effectivejava.chapter05;
+package greeng00se.effectivejava.chapter05.item34;
 
 public enum Coffee {
     ARABICA(5000, 1.4),

@@ -1,7 +1,7 @@
-package greeng00se.effectivejava.chapter05;
+package greeng00se.effectivejava.chapter05.item34;
 
-import static greeng00se.effectivejava.chapter05.PayrollDay2.PayType.WEEKDAY;
-import static greeng00se.effectivejava.chapter05.PayrollDay2.PayType.WEEKEND;
+import static greeng00se.effectivejava.chapter05.item34.PayrollDay2.PayType.WEEKDAY;
+import static greeng00se.effectivejava.chapter05.item34.PayrollDay2.PayType.WEEKEND;
 
 public enum PayrollDay2 {
     MONDAY(WEEKDAY),

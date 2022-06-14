@@ -1,4 +1,4 @@
-package greeng00se.effectivejava.chapter05;
+package greeng00se.effectivejava.chapter05.item34;
 
 public enum PayrollDay {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
