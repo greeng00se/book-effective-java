@@ -58,8 +58,5 @@ public class Item43Test {
         Supplier<String> s2 = String::new;
         String emptyString2 = s2.get();
         assertThat(emptyString2).isEmpty();
-
-
-        Integer.sum()
     }
 }
