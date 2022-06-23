@@ -1,4 +1,4 @@
-package greeng00se.effectivejava.chapter06;
+package greeng00se.effectivejava.chapter06.item42;
 
 import java.util.function.DoubleBinaryOperator;
 

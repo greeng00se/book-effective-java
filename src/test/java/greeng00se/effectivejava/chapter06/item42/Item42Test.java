@@ -1,6 +1,5 @@
 package greeng00se.effectivejava.chapter06.item42;
 
-import greeng00se.effectivejava.chapter06.AClass;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
