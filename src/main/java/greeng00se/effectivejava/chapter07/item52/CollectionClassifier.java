@@ -16,7 +16,7 @@ public class CollectionClassifier {
     public static String classify(Collection<?> c) {
         return c instanceof Set ? "집합" :
                 c instanceof List ? "리스트" : "그 외";
-        // return "그 외";
+//        return "그 외";
     }
     public static void main(String[] args) {
         Collection<?>[] collections = {
