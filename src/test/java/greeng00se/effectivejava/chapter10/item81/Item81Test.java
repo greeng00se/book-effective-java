@@ -3,7 +3,6 @@ package greeng00se.effectivejava.chapter10.item81;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,7 +19,7 @@ public class Item81Test {
         CountDownLatch ready = new CountDownLatch(concurrency);
         CountDownLatch start = new CountDownLatch(1);
         CountDownLatch done = new CountDownLatch(concurrency);
-        ConcurrentHashMap
+
         for (int i = 0; i < concurrency; i++) {
             executorService.execute(() -> {
                 ready.countDown();
